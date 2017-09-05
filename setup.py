@@ -10,7 +10,7 @@ os.chdir(os.path.abspath(os.path.dirname(__file__)))
 with io.open('README.rst', encoding='utf-8') as fp:
     description = fp.read()
 
-setup(name='api_stats',
+setup(name='breakout',
       version='0.1',
       py_modules=['breakout'],
       description="Drop to debugger when given output is written.",
